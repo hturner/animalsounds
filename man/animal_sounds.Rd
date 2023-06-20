@@ -12,7 +12,10 @@ animal_sounds(animal, sound)
 \item{sound}{the sound of the animal (character)}
 }
 \description{
-Create Animal Sounds Message
+Create a message stating what sound an animal makes.
+}
+\details{
+We have used \code{\link[=paste0]{paste0()}} but not \code{\link[glue:glue]{glue::glue()}}
 }
 \examples{
 animal_sounds("cow", "moo")
