@@ -4,7 +4,7 @@
 \alias{animal_sounds}
 \title{Create Animal Sounds Message}
 \usage{
-animal_sounds(animal, sound)
+animal_sounds(animal, sound = NULL)
 }
 \arguments{
 \item{animal}{the name of the animal (character)}

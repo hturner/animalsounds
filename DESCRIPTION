@@ -1,12 +1,12 @@
 Package: animalsounds
-Title: What the Package Does (One Line, Title Case)
+Title: Sounds That Animals Make
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: c(
+    person("Ella", "Kaye", , "ella.m.kaye@warwick.ac.uk", role = c("aut")),
+    person("Heather", "Turner", , "h.turner.1@warwick.ac.uk", role = c("aut", "cre"))
+  )
+Description: Tells us what sounds animals make.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
