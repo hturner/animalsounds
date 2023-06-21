@@ -1,0 +1,25 @@
+---
+title: "Sounds That Animals Make"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Sounds That Animals Make}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(animalsounds)
+```
+
+When given the name of an animal as a single string and the sound it makes as a single string, the `animal_sounds()` function will return a string combining them as a short sentence:
+
+```{r}
+animal_sounds("dog", "woof")
+```
