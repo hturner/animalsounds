@@ -1,0 +1,10 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  animalsounds: animalsounds.html
+last_built: 2023-06-21T11:38Z
+urls:
+  reference: https://hturner.github.io/animalsounds/reference
+  article: https://hturner.github.io/animalsounds/articles
+
